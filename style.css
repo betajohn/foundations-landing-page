@@ -12,7 +12,7 @@
     color: #E5E7EB;
 }
 
-.header-top, .header-bottom{
+.header-top, .header-bottom, .content-top, .sign-up{
     margin-left:200px ;
     margin-right: 200px;
 }
@@ -58,7 +58,6 @@ li{
     width: 50%;
     align-items: center;
     justify-content: center;
-   
     background-color: gray;
 }
 
@@ -72,7 +71,7 @@ li{
     padding: 10px;
 }
 
-.header-bottom-left button{
+ button{
     background-color: #3882f6;
     margin-top: 10px;
     width: 100px;
@@ -80,4 +79,77 @@ li{
     color: #E5E7EB;
     border-radius: 8px;
 }
+h2{
+    text-align: center;
+    padding: 30px;
+}
 
+.content-top{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card-draw{
+    height: 130px;
+    width: 130px;
+    border: 4px solid #1F2937;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    
+}
+.card-description{
+    width: 130px;
+    text-align: center;
+}
+.content-bottom{
+    flex-direction: column;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote, .sign{
+    margin-left: 275px;
+    margin-right: 275px;
+}
+.quote{
+    font-size: 26px;
+    color: #1F2937;
+    font-weight: lighter;
+    
+}
+.sign{
+    font-weight: bold;
+    text-align: right;
+    margin-right: 0;
+}
+.sign-up{
+    background-color: #3882F6;
+    display: flex;
+    gap: 100px;
+    padding:20px;
+    border-radius: 8px;
+}
+
+#top{
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 20px;
+ }
+ #bottom{
+    color: #E5E7EB;
+    font-weight:lighter;
+ }
+.sign-up-button button{
+   border: 2px solid white;
+}
+.div{
+    height: 100px;
+}
+.end-banner{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 30px;
+}
